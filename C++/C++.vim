@@ -1,5 +1,3 @@
-set nocompatible
-
 function FormatFile()
   let l:lines="all"
   if has('python')
@@ -8,6 +6,5 @@ function FormatFile()
     py3f /usr/share/clang/clang-format-10/clang-format.py
   endif
 endfunction
-autocmd BufWritePre *.h,*.cc,*.cpp call FormatFile()
 
-set number
+autocmd BufWritePre *.h,*.cc,*.cpp call FormatFile()
