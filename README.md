@@ -1,8 +1,12 @@
 ## How to organize the directory
 
-1. Clone repo to `~/`
-2. Delete existing `.vimrc` in `~/`
-3. Run the following command `ln -s ~/Vimrc/.vimrc ~/.vimrc` to link the .vimrc to the one in the repo
+1. sudo add-apt-repository ppa:jonathonf/vim
+2. sudo apt-get update
+3. sudo apt-get install vim
+4. sudo apt-get install vim-gtk
+5. Clone repo to `~/`
+6. Delete existing `.vimrc` in `~/`
+7. Run the following command `ln -s ~/Vimrc/.vimrc ~/.vimrc` to link the .vimrc to the one in the repo
 
 ## TODO (C++)
 
