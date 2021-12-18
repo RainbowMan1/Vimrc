@@ -1,3 +1,8 @@
+source ~/Vimrc/C++/C++syntax_hl.vim 
+source ~/Vimrc/C/Csyntax_hl.vim
+
+set matchpairs+=<:>
+
 " Use Clang Format to format file on write
 function FormatFile()
   let l:lines="all"
